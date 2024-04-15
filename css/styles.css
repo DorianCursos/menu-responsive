@@ -52,6 +52,7 @@ body {
   padding: 0.8rem 0;
 }
 
+/* Clase encargada de mostrar y ocultar el menú */
 .show {
   display: flex;
 }
