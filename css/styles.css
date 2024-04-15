@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -26,8 +21,14 @@ body {
   color: aliceblue;
 }
 
-.icon-menu {
-  width: 30px;
+.button-menu {
+  display: block;
+}
+
+@media screen and (width>=768px) {
+  .button-menu {
+    display: none;
+  }
 }
 
 .menu {
@@ -39,7 +40,7 @@ body {
   padding: 0 1rem;
 }
 
-@media screen and (width>=768px) {
+@media screen and (width >= 768px) {
   .menu {
     display: flex;
     flex-direction: row;
